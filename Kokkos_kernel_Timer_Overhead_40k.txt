@@ -1,0 +1,11 @@
+#MeshFieldsDist testDist.cpp (7286291) run with Kokkos Kernel Timer enabled
+Kokkos Timing Data: 0.00103704
+Kokkos Timing Data: 0.00100998
+Kokkos Timing Data: 0.00196874
+Kokkos Timing Data: 0.00196583
+
+#MeshFieldsDist testDist.cpp (7286291) run with Kokkos Kernel Timer enabled
+Kokkos Timing Data: 0.00078081
+Kokkos Timing Data: 0.000780439
+Kokkos Timing Data: 0.00217745
+Kokkos Timing Data: 0.00219389
