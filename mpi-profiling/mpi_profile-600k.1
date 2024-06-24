@@ -4,23 +4,25 @@ Times from MPI_Pcontrol(1) to MPI_Pcontrol(0).
 MPI Routine                        #calls     avg. bytes      time(sec)
 -----------------------------------------------------------------------
 MPI_Comm_size                           1            0.0          0.000
-MPI_Isend                               3        12938.7          0.000
-MPI_Irecv                               1        37864.0          0.000
-MPI_Waitall                             1            0.0          0.000
+MPI_Isend                               2       314464.0          0.000
+MPI_Irecv                               2       314592.0          0.000
+MPI_Waitall                             1            0.0          0.001
 -----------------------------------------------------------------------
-total communication time = 0.000 seconds.
-total elapsed time       = 0.001 seconds.
+MPI task 1 of 4 had the maximum communication time.
+total communication time = 0.001 seconds.
+total elapsed time       = 0.002 seconds.
 user cpu time            = 0.000 seconds.
-system time              = 0.000 seconds.
-max resident set size    = 201.801 MiB.
+system time              = 0.002 seconds.
+max resident set size    = 204.469 MiB.
 
 -----------------------------------------------------------------
 Message size distributions:
 
 MPI_Isend                 #calls    avg. bytes      time(sec)
-                               2         476.0          0.000
-                               1       37864.0          0.000
+                               1        1544.0          0.000
+                               1      627384.0          0.000
 
 MPI_Irecv                 #calls    avg. bytes      time(sec)
-                               1       37864.0          0.000
+                               1        1800.0          0.000
+                               1      627384.0          0.000
 

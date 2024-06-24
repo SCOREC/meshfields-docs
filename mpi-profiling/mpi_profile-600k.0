@@ -1,0 +1,46 @@
+Data for MPI rank 0 of 4:
+Times from MPI_Pcontrol(1) to MPI_Pcontrol(0).
+-----------------------------------------------------------------------
+MPI Routine                        #calls     avg. bytes      time(sec)
+-----------------------------------------------------------------------
+MPI_Comm_size                           1            0.0          0.000
+MPI_Isend                               3       210320.0          0.000
+MPI_Irecv                               1       628328.0          0.000
+MPI_Waitall                             1            0.0          0.001
+-----------------------------------------------------------------------
+MPI task 0 of 4 had the median communication time.
+total communication time = 0.001 seconds.
+total elapsed time       = 0.002 seconds.
+user cpu time            = 0.002 seconds.
+system time              = 0.000 seconds.
+max resident set size    = 203.402 MiB.
+
+-----------------------------------------------------------------
+Message size distributions:
+
+MPI_Isend                 #calls    avg. bytes      time(sec)
+                               1         832.0          0.000
+                               1        1800.0          0.000
+                               1      628328.0          0.000
+
+MPI_Irecv                 #calls    avg. bytes      time(sec)
+                               1      628328.0          0.000
+
+-----------------------------------------------------------------
+
+Summary for all tasks:
+
+  Rank 2 reported the largest memory utilization : 206.14 MiB
+  Rank 2 reported the largest elapsed time : 0.00 sec
+
+  minimum communication time = 0.001 sec for task 3
+  median  communication time = 0.001 sec for task 0
+  maximum communication time = 0.001 sec for task 1
+
+
+MPI timing summary for all ranks:
+taskid           hostname    cpu    comm(s)  elapsed(s)     user(s)   system(s)   size(MiB)    switches
+     0          nid001460      0       0.00        0.00        0.00        0.00      203.40           1
+     1          nid001460     64       0.00        0.00        0.00        0.00      204.47           0
+     2          nid001460     16       0.00        0.00        0.00        0.00      206.14           0
+     3          nid001460     80       0.00        0.00        0.00        0.00      204.96           0
