@@ -8,7 +8,7 @@ Follow the [kokkos-tools](https://github.com/kokkos/kokkos-tools) instructions t
 The other dependencies were built as specified in the root `README`, using the following sources:
 * Kokkos `develop@2035e31`
 * Omega_h `master@249fc9f`
-  Note that as a result of issue [102](https://github.com/SCOREC/omega_h/issues/102) Omega_H is currently built without CUDA_AWARE_MPI. Ensure that `DOmega_h_USE_CUDA_AWARE_MPI=OFF` in your build configuration when running this test.
+  * Note that as a result of issue [102](https://github.com/SCOREC/omega_h/issues/102) Omega_H is currently built without CUDA_AWARE_MPI. Ensure that `DOmega_h_USE_CUDA_AWARE_MPI=OFF` in your build configuration when running this test.
 * Cabana `master@0757378`
 * MeshFields `main@b676032`
 
