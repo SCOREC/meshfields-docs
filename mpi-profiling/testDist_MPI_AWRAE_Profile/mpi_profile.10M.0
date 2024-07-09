@@ -1,0 +1,46 @@
+Data for MPI rank 0 of 4:
+Times from MPI_Pcontrol(1) to MPI_Pcontrol(0).
+-----------------------------------------------------------------------
+MPI Routine                        #calls     avg. bytes      time(sec)
+-----------------------------------------------------------------------
+MPI_Comm_size                           1            0.0          0.000
+MPI_Isend                               3      3130744.0          0.000
+MPI_Irecv                               1      9382064.0          0.000
+MPI_Waitall                             1            0.0          0.006
+-----------------------------------------------------------------------
+MPI task 0 of 4 had the minimum communication time.
+total communication time = 0.006 seconds.
+total elapsed time       = 0.008 seconds.
+user cpu time            = 0.002 seconds.
+system time              = 0.006 seconds.
+max resident set size    = 323.543 MiB.
+
+-----------------------------------------------------------------
+Message size distributions:
+
+MPI_Isend                 #calls    avg. bytes      time(sec)
+                               1        3184.0          0.000
+                               1        6984.0          0.000
+                               1     9382064.0          0.000
+
+MPI_Irecv                 #calls    avg. bytes      time(sec)
+                               1     9382064.0          0.000
+
+-----------------------------------------------------------------
+
+Summary for all tasks:
+
+  Rank 0 reported the largest memory utilization : 323.54 MiB
+  Rank 2 reported the largest elapsed time : 0.01 sec
+
+  minimum communication time = 0.006 sec for task 0
+  median  communication time = 0.006 sec for task 1
+  maximum communication time = 0.007 sec for task 3
+
+
+MPI timing summary for all ranks:
+taskid           hostname    cpu    comm(s)  elapsed(s)     user(s)   system(s)   size(MiB)    switches
+     0          nid001132      0       0.01        0.01        0.00        0.01      323.54           0
+     1          nid001132     64       0.01        0.01        0.00        0.01      311.72           0
+     2          nid001132      1       0.01        0.01        0.01        0.00      305.46           0
+     3          nid001132     65       0.01        0.01        0.01        0.00      289.76           0
