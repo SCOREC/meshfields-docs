@@ -1,0 +1,564 @@
+{
+  "total-app-time" : 56.0268,
+  "total-kernel-time" : 0.0548122,
+  "total-non-kernel-time" : 55.972,
+  "percent-in-kernels" : 0.0978321,
+  "unique-kernel-calls" : 110,
+  "region-data" : [
+    {
+      "kernel-name": "vtk::write_parallel",
+      "call-count": 1,
+      "total-time": 38.9236,
+      "time-per-call": 38.9236,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "write_vtu",
+      "call-count": 1,
+      "total-time": 38.9211,
+      "time-per-call": 38.9211,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "write_array",
+      "call-count": 15,
+      "total-time": 38.9163,
+      "time-per-call": 2.59442,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "zlib",
+      "call-count": 15,
+      "total-time": 36.045,
+      "time-per-call": 2.403,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "binary::read(path, comm, mesh, strict)",
+      "call-count": 1,
+      "total-time": 17.0597,
+      "time-per-call": 17.0597,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "binary::read_in_comm(path, comm, mesh, version)",
+      "call-count": 1,
+      "total-time": 16.7902,
+      "time-per-call": 16.7902,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "binary::read(istream, mesh, version)",
+      "call-count": 1,
+      "total-time": 16.7864,
+      "time-per-call": 16.7864,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "write_tag",
+      "call-count": 7,
+      "total-time": 11.5676,
+      "time-per-call": 1.65252,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "write_locals_and_owners",
+      "call-count": 2,
+      "total-time": 5.65042,
+      "time-per-call": 2.82521,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "stream bulk",
+      "call-count": 15,
+      "total-time": 1.20117,
+      "time-per-call": 0.0800783,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "base64",
+      "call-count": 15,
+      "total-time": 1.01807,
+      "time-per-call": 0.0678713,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "array device to host",
+      "call-count": 57,
+      "total-time": 0.640601,
+      "time-per-call": 0.0112386,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "array host to device",
+      "call-count": 47,
+      "total-time": 0.502408,
+      "time-per-call": 0.0106895,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "ask_dist",
+      "call-count": 5,
+      "total-time": 0.10296,
+      "time-per-call": 0.020592,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "set_dest_ranks",
+      "call-count": 3,
+      "total-time": 0.0877419,
+      "time-per-call": 0.0292473,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "Write allocation",
+      "call-count": 112,
+      "total-time": 0.0679092,
+      "time-per-call": 0.000606333,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "set_dest_idxs",
+      "call-count": 3,
+      "total-time": 0.0151138,
+      "time-per-call": 0.00503794,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "sources_from_destinations",
+      "call-count": 3,
+      "total-time": 0.010067,
+      "time-per-call": 0.00335566,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "invert_map_by_atomics",
+      "call-count": 3,
+      "total-time": 0.00998807,
+      "time-per-call": 0.00332936,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "parallel_for",
+      "call-count": 22,
+      "total-time": 0.00982308,
+      "time-per-call": 0.000446504,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "first barrier",
+      "call-count": 3,
+      "total-time": 0.0084002,
+      "time-per-call": 0.00280007,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "exch",
+      "call-count": 4,
+      "total-time": 0.00713587,
+      "time-per-call": 0.00178397,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "Dist::exch",
+      "call-count": 4,
+      "total-time": 0.00710297,
+      "time-per-call": 0.00177574,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "offset_scan",
+      "call-count": 11,
+      "total-time": 0.00676799,
+      "time-per-call": 0.000615272,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "fill_right",
+      "call-count": 3,
+      "total-time": 0.00541711,
+      "time-per-call": 0.0018057,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "Comm::alltoallv",
+      "call-count": 4,
+      "total-time": 0.00453115,
+      "time-per-call": 0.00113279,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "meshField-sync",
+      "call-count": 1,
+      "total-time": 0.00216818,
+      "time-per-call": 0.00216818,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "sync_array",
+      "call-count": 1,
+      "total-time": 0.00212908,
+      "time-per-call": 0.00212908,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "derive_adj",
+      "call-count": 1,
+      "total-time": 0.00188398,
+      "time-per-call": 0.00188398,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "ask_adj",
+      "call-count": 3,
+      "total-time": 0.00188184,
+      "time-per-call": 0.000627279,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "transit",
+      "call-count": 1,
+      "total-time": 0.00184917,
+      "time-per-call": 0.00184917,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "permute",
+      "call-count": 4,
+      "total-time": 0.00167084,
+      "time-per-call": 0.000417709,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "meshField-Serialize",
+      "call-count": 1,
+      "total-time": 0.00160789,
+      "time-per-call": 0.00160789,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "map_into",
+      "call-count": 4,
+      "total-time": 0.00156379,
+      "time-per-call": 0.000390947,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "unmap",
+      "call-count": 4,
+      "total-time": 0.00156283,
+      "time-per-call": 0.000390708,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "compound_maps",
+      "call-count": 3,
+      "total-time": 0.000907898,
+      "time-per-call": 0.000302633,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "single device to host",
+      "call-count": 20,
+      "total-time": 0.000448942,
+      "time-per-call": 2.24471e-05,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "expand",
+      "call-count": 1,
+      "total-time": 0.000414848,
+      "time-per-call": 0.000414848,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "single host to device",
+      "call-count": 22,
+      "total-time": 0.00037241,
+      "time-per-call": 1.69277e-05,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "expand_into",
+      "call-count": 1,
+      "total-time": 0.000336885,
+      "time-per-call": 0.000336885,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "deep_copy",
+      "call-count": 5,
+      "total-time": 0.000311136,
+      "time-per-call": 6.22272e-05,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "meshField-Deserialize",
+      "call-count": 1,
+      "total-time": 0.00026989,
+      "time-per-call": 0.00026989,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "copy_into",
+      "call-count": 5,
+      "total-time": 0.000224352,
+      "time-per-call": 4.48704e-05,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "Neighbor_allgather",
+      "call-count": 6,
+      "total-time": 9.5129e-05,
+      "time-per-call": 1.58548e-05,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "header",
+      "call-count": 15,
+      "total-time": 8.72612e-05,
+      "time-per-call": 5.81741e-06,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "Neighbor_alltoall",
+      "call-count": 3,
+      "total-time": 8.36849e-05,
+      "time-per-call": 2.7895e-05,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "footer",
+      "call-count": 15,
+      "total-time": 5.126e-05,
+      "time-per-call": 3.41733e-06,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "Neighbor_ialltoallv",
+      "call-count": 4,
+      "total-time": 3.52859e-05,
+      "time-per-call": 8.82149e-06,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "set_ents",
+      "call-count": 2,
+      "total-time": 2.7895e-05,
+      "time-per-call": 1.39475e-05,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "testDist-Dist-Init",
+      "call-count": 1,
+      "total-time": 1.50204e-05,
+      "time-per-call": 1.50204e-05,
+      "kernel-type": "REGION"
+    },
+    {
+      "kernel-name": "change_all_rcFieldsToMesh",
+      "call-count": 1,
+      "total-time": 4.05312e-06,
+      "time-per-call": 4.05312e-06,
+      "kernel-type": "REGION"
+    }
+  ],
+  "kernel-data" : [
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<int (*)(Omega_h::Read<int>, int, Omega_h::Write<int>), &(int Omega_h::number_same_values<int>(Omega_h::Read<int>, int, Omega_h::Write<int>)), 2u>, void (int, int&, bool), __nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<int (*)(Omega_h::Read<int>, int, Omega_h::Write<int>), &(int Omega_h::number_same_values<int>(Omega_h::Read<int>, int, Omega_h::Write<int>)), 1u>, int (int), Omega_h::Read<int> const, int const>, Omega_h::Write<int> const>",
+      "call-count": 3,
+      "total-time": 0.01648,
+      "time-per-call": 0.00549332,
+      "kernel-type": "PARALLEL_SCAN"
+    },
+    {
+      "kernel-name": "omegah_kk_offset_scan",
+      "call-count": 11,
+      "total-time": 0.00623322,
+      "time-per-call": 0.000566656,
+      "kernel-type": "PARALLEL_SCAN"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<int (*)(Omega_h::Read<int>), &(int Omega_h::get_min<int>(Omega_h::Read<int>)), 1u>, void (int, int&), Omega_h::minimum<int> const, Omega_h::Read<int> >",
+      "call-count": 3,
+      "total-time": 0.00622106,
+      "time-per-call": 0.00207369,
+      "kernel-type": "PARALLEL_REDUCE"
+    },
+    {
+      "kernel-name": "omegah_kk_fill_right",
+      "call-count": 3,
+      "total-time": 0.00535917,
+      "time-per-call": 0.00178639,
+      "kernel-type": "PARALLEL_SCAN"
+    },
+    {
+      "kernel-name": "Write(size,value)",
+      "call-count": 13,
+      "total-time": 0.00400543,
+      "time-per-call": 0.00030811,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<Omega_h::Adj (*)(Omega_h::Adj, Omega_h::Adj, Omega_h_Family, int, int), &Omega_h::transit, 1u>, void (int), int const, int const, Omega_h_Family const, int const, int const, Omega_h::Read<int> const, Omega_h::Read<signed char> const, int const, Omega_h::Read<int> const, Omega_h::Write<int>, Omega_h::Read<signed char> const, Omega_h::Write<signed char> >",
+      "call-count": 1,
+      "total-time": 0.00177693,
+      "time-per-call": 0.00177693,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<Omega_h::Graph (*)(Omega_h::Read<int>, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&), &Omega_h::invert_map_by_atomics, 2u>, void (int), Omega_h::Read<int> const, Omega_h::Read<int> const, Omega_h::Write<int> const, Omega_h::Write<int> >",
+      "call-count": 3,
+      "total-time": 0.00169802,
+      "time-per-call": 0.000566006,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "get_degrees",
+      "call-count": 8,
+      "total-time": 0.00163841,
+      "time-per-call": 0.000204802,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<void (*)(Omega_h::Read<int>, Omega_h::Read<int>, Omega_h::Write<int>, int), &(void Omega_h::map_into<int>(Omega_h::Read<int>, Omega_h::Read<int>, Omega_h::Write<int>, int)), 1u>, void (int), Omega_h::Read<int>, int, Omega_h::Write<int>, Omega_h::Read<int> >",
+      "call-count": 4,
+      "total-time": 0.00141001,
+      "time-per-call": 0.000352502,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<Omega_h::Write<int> (*)(Omega_h::Read<int>, Omega_h::Read<int>, int), &(Omega_h::Write<int> Omega_h::unmap<int>(Omega_h::Read<int>, Omega_h::Read<int>, int)), 1u>, void (int), Omega_h::Read<int>, int, Omega_h::Write<int>, Omega_h::Read<int> >",
+      "call-count": 4,
+      "total-time": 0.00138426,
+      "time-per-call": 0.000346065,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "resize_vectors",
+      "call-count": 1,
+      "total-time": 0.00133085,
+      "time-per-call": 0.00133085,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<void (*)(Omega_h::Read<int>, int, Omega_h::Write<int>, Omega_h::Write<int>, int), &(void Omega_h::combine_perms<int>(Omega_h::Read<int>, int, Omega_h::Write<int>, Omega_h::Write<int>, int)), 1u>, void (int), Omega_h::Read<int> const, int const, Omega_h::Write<int> const, Omega_h::Write<int> const, int>",
+      "call-count": 3,
+      "total-time": 0.00108314,
+      "time-per-call": 0.000361045,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<Omega_h::Graph (*)(Omega_h::Read<int>, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&), &Omega_h::invert_map_by_atomics, 1u>, void (int), Omega_h::Read<int> const, Omega_h::Write<int> >",
+      "call-count": 3,
+      "total-time": 0.00103617,
+      "time-per-call": 0.000345389,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<Omega_h::Read<int> (*)(Omega_h::Read<int>, Omega_h::Read<int>), &Omega_h::compound_maps, 1u>, void (int), Omega_h::Read<int>, Omega_h::Read<int>, Omega_h::Write<int> >",
+      "call-count": 3,
+      "total-time": 0.000718117,
+      "time-per-call": 0.000239372,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<int (*)(Omega_h::Read<int>, int), &(int Omega_h::find_last<int>(Omega_h::Read<int>, int)), 2u>, void (int, int&), Omega_h::maximum<int> const, __nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<int (*)(Omega_h::Read<int>, int), &(int Omega_h::find_last<int>(Omega_h::Read<int>, int)), 1u>, int (int), Omega_h::Read<int>, int> >",
+      "call-count": 24,
+      "total-time": 0.000671864,
+      "time-per-call": 2.79943e-05,
+      "kernel-type": "PARALLEL_REDUCE"
+    },
+    {
+      "kernel-name": "self_send_part2",
+      "call-count": 2,
+      "total-time": 0.000647068,
+      "time-per-call": 0.000323534,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "Write(size,offset,stride)",
+      "call-count": 3,
+      "total-time": 0.000638962,
+      "time-per-call": 0.000212987,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "set_vertex",
+      "call-count": 1,
+      "total-time": 0.000494003,
+      "time-per-call": 0.000494003,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "__nv_hdl_wrapper_t<false, false, false, __nv_dl_tag<void (*)(Omega_h::Read<int>, Omega_h::Read<int>, Omega_h::Write<int>, int), &(void Omega_h::expand_into<int>(Omega_h::Read<int>, Omega_h::Read<int>, Omega_h::Write<int>, int)), 1u>, void (int), Omega_h::Read<int>, int, Omega_h::Write<int>, Omega_h::Read<int> >",
+      "call-count": 1,
+      "total-time": 0.000304937,
+      "time-per-call": 0.000304937,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "Reduction",
+      "call-count": 1,
+      "total-time": 0.000281096,
+      "time-per-call": 0.000281096,
+      "kernel-type": "PARALLEL_REDUCE"
+    },
+    {
+      "kernel-name": "field serializer",
+      "call-count": 1,
+      "total-time": 0.000271082,
+      "time-per-call": 0.000271082,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "field deserializer",
+      "call-count": 1,
+      "total-time": 0.000258207,
+      "time-per-call": 0.000258207,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "self_send_part1",
+      "call-count": 1,
+      "total-time": 0.00025177,
+      "time-per-call": 0.00025177,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "Kokkos::View::initialization [view] via memset",
+      "call-count": 2,
+      "total-time": 0.00019908,
+      "time-per-call": 9.95398e-05,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "meshField_to_omegah",
+      "call-count": 1,
+      "total-time": 0.000146151,
+      "time-per-call": 0.000146151,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "Kokkos::View::initialization [serialized field] via memset",
+      "call-count": 1,
+      "total-time": 0.000108957,
+      "time-per-call": 0.000108957,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "copy into kernel",
+      "call-count": 5,
+      "total-time": 9.91821e-05,
+      "time-per-call": 1.98364e-05,
+      "kernel-type": "PARALLEL_FOR"
+    },
+    {
+      "kernel-name": "invert_fan",
+      "call-count": 3,
+      "total-time": 6.50883e-05,
+      "time-per-call": 2.16961e-05,
+      "kernel-type": "PARALLEL_FOR"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+Kokkos Timing Data: 0.00493114
+Kokkos Timing Data: 0.00525282
+Kokkos Timing Data: 0.00526587
+Kokkos Timing Data: 0.00525575
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/160M/nid001028-1150296.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/160M/nid001028-1150295.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/160M/nid001028-1150298.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/160M/nid001028-1150300.dat 
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+Kokkos Timing Data: 0.00241986
+Kokkos Timing Data: 0.00254121
+Kokkos Timing Data: 0.00256167
+Kokkos Timing Data: 0.00258355
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/40M/nid001028-1150460.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/40M/nid001028-1150457.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/40M/nid001028-1150458.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/40M/nid001028-1150462.dat 
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+Kokkos Timing Data: 0.0016675
+Kokkos Timing Data: 0.00176068
+Kokkos Timing Data: 0.00176361
+Kokkos Timing Data: 0.00174536
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/10M/nid001028-1150590.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/10M/nid001028-1150587.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/10M/nid001028-1150588.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/10M/nid001028-1150592.dat 
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+Kokkos Timing Data: 0.00277412
+Kokkos Timing Data: 0.00277671
+Kokkos Timing Data: 0.00287945
+Kokkos Timing Data: 0.00289833
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/2-5M/nid001028-1150674.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/2-5M/nid001028-1150676.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/2-5M/nid001028-1150672.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/2-5M/nid001028-1150671.dat 
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+Kokkos Timing Data: 0.00234581
+Kokkos Timing Data: 0.0023404
+Kokkos Timing Data: 0.00231914
+Kokkos Timing Data: 0.00253987
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/600k/nid001028-1150756.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/600k/nid001028-1150757.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/600k/nid001028-1150759.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/600k/nid001028-1150761.dat 
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+Kokkos Timing Data: 0.00142009
+Kokkos Timing Data: 0.00143283
+Kokkos Timing Data: 0.00146866
+Kokkos Timing Data: 0.00174413
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/160k/nid001028-1150845.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/160k/nid001028-1150841.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/160k/nid001028-1150843.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/160k/nid001028-1150840.dat 
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
+Kokkos Timing Data: 0.00129721
+Kokkos Timing Data: 0.00129372
+Kokkos Timing Data: 0.00186267
+Kokkos Timing Data: 0.00187886
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/40k/nid001028-1150951.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/40k/nid001028-1150949.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/40k/nid001028-1150953.dat 
+KokkosP: Kernel timing written to /pscratch/sd/c/ckegel/Dist-Sync-Testing/28897823-testDist-sweep/40k/nid001028-1150948.dat 
