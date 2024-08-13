@@ -1,0 +1,4 @@
+computation, sync, serialize, deserialize
+min, 0.000473648, 2.554e-05, 2.6061e-05
+max, 0.000602408, 6.198e-05, 4.5258e-05
+avg, 0.000499354, 2.89642e-05, 3.00087e-05
